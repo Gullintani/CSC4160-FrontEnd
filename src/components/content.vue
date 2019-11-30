@@ -48,10 +48,10 @@ export default {
 
         //color settings
         function AirlineToColour(airline) {
-            if(airline == "American Airlines"){
+            if(airline == "Secure Access"){
                 return '#0000CD'
             }
-            if(airline == "Air China"){
+            if(airline == "Malicious Access"){
                 return '#DC143C'
             }
             return '#7CFC00'
