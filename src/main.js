@@ -6,7 +6,6 @@ import App from './App.vue'
 
 import echarts from "echarts";
 // replaced echart with CDN
-
 import "echarts-gl";
 
 Vue.prototype.$echarts = echarts;

@@ -1,8 +1,8 @@
 module.exports = {
-    configureWebpack:{
-      externals: {
-          'echarts':'echarts',
-          'echarts-gl':'echarts-gl'
-      }
-    },
+    // configureWebpack:{
+    //   externals: {
+    //       'echarts':'echarts',
+    //       'echarts-gl':'echarts-gl'
+    //   }
+    // }
 };

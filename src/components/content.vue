@@ -4,6 +4,7 @@
   </div>
 </template>
 
+
 <script>
 export default {
   name: 'HelloWorld',
@@ -178,6 +179,7 @@ export default {
   },
   mounted() {
       this.drawChart()
+      
   }
 }
 </script>
