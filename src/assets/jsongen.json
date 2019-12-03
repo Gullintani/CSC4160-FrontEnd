@@ -1,0 +1,11 @@
+[
+    '{{repeat(1, 2)}}',
+    {
+      serverLongi: '{{floating(-180.000001, 180)}}',
+      serverLati: '{{floating(-90.000001, 90)}}',
+      userLongi: '{{floating(-180.000001, 180)}}',
+      userLati: '{{floating(-90.000001, 90)}}',
+      city: '{{city()}}',
+      eyeColor: '{{random("neptune.", "smurf.", "normal.")}}'
+    }
+]

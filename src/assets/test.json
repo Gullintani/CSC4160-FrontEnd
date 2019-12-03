@@ -1,16 +1,4974 @@
-{
-    "IP_group_by_tags":{
-        "tag1":[
-            [["x1","y1"],["x2","y2"]],
-            [["x3","y3"],["x4","y4"]]    
-        ],
-        "tag2":[
-            [["x5","x5"],["x6","x6"]],
-            [["x7","y7"],["x8","y8"]] 
-        ]
+{ "status":200,
+  "message":"data successfully transferred",
+  "data":[
+    {
+      "serverLongi": -36.891842,
+      "serverLati": -30.530577,
+      "userLongi": 16.93263,
+      "userLati": -63.338721,
+      "city": "Noxen",
+      "securityTag": "smurf."
     },
-    "positions":[
-        ["x1","y1"],
-        ["x2","y2"]
-    ]
+    {
+      "serverLongi": 69.801059,
+      "serverLati": 42.842032,
+      "userLongi": 134.890414,
+      "userLati": -8.612299,
+      "city": "Marshall",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 1.861495,
+      "serverLati": 38.535654,
+      "userLongi": -98.540711,
+      "userLati": -56.262215,
+      "city": "Lindcove",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -118.010837,
+      "serverLati": -36.319781,
+      "userLongi": -32.272284,
+      "userLati": 37.682127,
+      "city": "Murillo",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -66.228151,
+      "serverLati": -10.143688,
+      "userLongi": 135.862067,
+      "userLati": 1.577996,
+      "city": "Mayfair",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 31.587469,
+      "serverLati": 88.350759,
+      "userLongi": -164.242267,
+      "userLati": -74.07103,
+      "city": "Brazos",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 163.119501,
+      "serverLati": -29.301123,
+      "userLongi": 63.301363,
+      "userLati": -79.59667,
+      "city": "Veyo",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -37.823155,
+      "serverLati": 81.073756,
+      "userLongi": -120.970703,
+      "userLati": 16.036778,
+      "city": "Hickory",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 146.017953,
+      "serverLati": -19.229005,
+      "userLongi": -38.41896,
+      "userLati": -3.929635,
+      "city": "Wanship",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 162.000262,
+      "serverLati": -84.664359,
+      "userLongi": -44.764992,
+      "userLati": -22.571903,
+      "city": "Titanic",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 128.002573,
+      "serverLati": 34.61951,
+      "userLongi": -96.852279,
+      "userLati": 79.49464,
+      "city": "Greenbackville",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -42.669801,
+      "serverLati": 23.944861,
+      "userLongi": 55.311688,
+      "userLati": -48.307314,
+      "city": "Lookingglass",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -34.976481,
+      "serverLati": -82.656736,
+      "userLongi": 97.31773,
+      "userLati": 55.39936,
+      "city": "Summerfield",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 29.614924,
+      "serverLati": -24.080763,
+      "userLongi": 8.617717,
+      "userLati": 88.598613,
+      "city": "Bourg",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -84.284853,
+      "serverLati": -1.273177,
+      "userLongi": 117.951472,
+      "userLati": 59.784483,
+      "city": "Maury",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 110.224843,
+      "serverLati": -32.154532,
+      "userLongi": -1.789085,
+      "userLati": 75.863539,
+      "city": "Craig",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 49.884979,
+      "serverLati": -12.101099,
+      "userLongi": -166.517903,
+      "userLati": 51.378449,
+      "city": "Lithium",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 50.493442,
+      "serverLati": 5.436778,
+      "userLongi": -57.30922,
+      "userLati": 8.489358,
+      "city": "Cataract",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 96.522158,
+      "serverLati": -10.404733,
+      "userLongi": 169.908069,
+      "userLati": 56.538466,
+      "city": "Winesburg",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 31.276941,
+      "serverLati": 66.231225,
+      "userLongi": 121.682023,
+      "userLati": 35.556508,
+      "city": "Carlton",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 147.065239,
+      "serverLati": -51.040999,
+      "userLongi": -48.103296,
+      "userLati": -76.480026,
+      "city": "Belleview",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -139.339398,
+      "serverLati": -29.975283,
+      "userLongi": 136.799828,
+      "userLati": -56.94951,
+      "city": "Nettie",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 39.491707,
+      "serverLati": 34.870173,
+      "userLongi": 68.823823,
+      "userLati": 50.159877,
+      "city": "Brambleton",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -88.7745,
+      "serverLati": -56.330712,
+      "userLongi": 60.849751,
+      "userLati": -76.068555,
+      "city": "Needmore",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 114.402848,
+      "serverLati": 79.829108,
+      "userLongi": -23.992655,
+      "userLati": -35.284861,
+      "city": "Wedgewood",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 124.678459,
+      "serverLati": -34.478492,
+      "userLongi": -167.640459,
+      "userLati": -79.398598,
+      "city": "Chelsea",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 101.308935,
+      "serverLati": -0.084985,
+      "userLongi": -24.407642,
+      "userLati": -24.509312,
+      "city": "Camptown",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 48.282755,
+      "serverLati": 70.633028,
+      "userLongi": 3.993005,
+      "userLati": 76.216683,
+      "city": "Noblestown",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 32.385089,
+      "serverLati": -30.504873,
+      "userLongi": 165.382879,
+      "userLati": 38.951518,
+      "city": "Vallonia",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 174.020582,
+      "serverLati": 76.438644,
+      "userLongi": 26.081159,
+      "userLati": -4.077098,
+      "city": "Lewis",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 116.284631,
+      "serverLati": -11.030043,
+      "userLongi": -109.298164,
+      "userLati": 5.638736,
+      "city": "Hobucken",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -107.339787,
+      "serverLati": 34.355302,
+      "userLongi": -76.481044,
+      "userLati": -18.704249,
+      "city": "Clarence",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -156.893073,
+      "serverLati": 27.532434,
+      "userLongi": -143.045892,
+      "userLati": 72.834136,
+      "city": "Richville",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -64.392103,
+      "serverLati": -59.260771,
+      "userLongi": -142.186887,
+      "userLati": 72.384612,
+      "city": "Goochland",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 152.28928,
+      "serverLati": 46.597392,
+      "userLongi": 148.169523,
+      "userLati": -3.722592,
+      "city": "Dodge",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -77.876213,
+      "serverLati": 3.106177,
+      "userLongi": -10.252477,
+      "userLati": -29.616189,
+      "city": "Urie",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -116.145923,
+      "serverLati": 35.091969,
+      "userLongi": -138.00962,
+      "userLati": 22.485243,
+      "city": "Yonah",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 124.266682,
+      "serverLati": 35.076123,
+      "userLongi": -84.544235,
+      "userLati": 68.101157,
+      "city": "Hannasville",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -134.821077,
+      "serverLati": -49.409616,
+      "userLongi": -35.272604,
+      "userLati": -34.35944,
+      "city": "Rosewood",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -134.80407,
+      "serverLati": 86.24186,
+      "userLongi": -66.07343,
+      "userLati": -38.255722,
+      "city": "Idledale",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 150.498632,
+      "serverLati": -37.702209,
+      "userLongi": -119.052256,
+      "userLati": 18.651631,
+      "city": "Kohatk",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -164.344983,
+      "serverLati": 61.339042,
+      "userLongi": 2.280742,
+      "userLati": -72.358025,
+      "city": "Elliston",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 164.391278,
+      "serverLati": 82.069848,
+      "userLongi": 3.305959,
+      "userLati": -15.903801,
+      "city": "Wilmington",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -54.611854,
+      "serverLati": -67.56973,
+      "userLongi": 157.708677,
+      "userLati": 9.091798,
+      "city": "Ballico",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 152.298338,
+      "serverLati": -15.211084,
+      "userLongi": 172.32512,
+      "userLati": -20.180468,
+      "city": "Limestone",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 82.466908,
+      "serverLati": -68.795442,
+      "userLongi": -126.896796,
+      "userLati": -73.161207,
+      "city": "Cashtown",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -33.988556,
+      "serverLati": -73.360219,
+      "userLongi": -22.808938,
+      "userLati": -2.276891,
+      "city": "Ruckersville",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -13.226729,
+      "serverLati": 56.059407,
+      "userLongi": -10.958939,
+      "userLati": -22.548014,
+      "city": "Trinway",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 3.613261,
+      "serverLati": 62.396914,
+      "userLongi": -122.10064,
+      "userLati": -17.28536,
+      "city": "Levant",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -13.771722,
+      "serverLati": 55.408985,
+      "userLongi": 166.757125,
+      "userLati": -24.676899,
+      "city": "Dragoon",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -24.332488,
+      "serverLati": -49.337665,
+      "userLongi": 130.844667,
+      "userLati": -14.552429,
+      "city": "Stevens",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -123.963919,
+      "serverLati": -30.327458,
+      "userLongi": 105.719094,
+      "userLati": 65.056684,
+      "city": "Kipp",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -32.018173,
+      "serverLati": -89.755117,
+      "userLongi": -155.288714,
+      "userLati": 24.545938,
+      "city": "Canby",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 171.948952,
+      "serverLati": -41.502642,
+      "userLongi": 85.683146,
+      "userLati": -50.748946,
+      "city": "Vernon",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -171.4068,
+      "serverLati": -55.111899,
+      "userLongi": 159.749973,
+      "userLati": -29.409623,
+      "city": "Hartsville/Hartley",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 169.626462,
+      "serverLati": -83.427513,
+      "userLongi": -140.900797,
+      "userLati": -45.747301,
+      "city": "Hessville",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 75.910267,
+      "serverLati": 29.557453,
+      "userLongi": 50.730057,
+      "userLati": 2.347738,
+      "city": "Teasdale",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -164.590359,
+      "serverLati": 40.25909,
+      "userLongi": -4.252505,
+      "userLati": -51.347702,
+      "city": "Gwynn",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -88.166599,
+      "serverLati": 57.621301,
+      "userLongi": -23.308627,
+      "userLati": -26.674056,
+      "city": "Flintville",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -132.610405,
+      "serverLati": -27.706289,
+      "userLongi": -52.889381,
+      "userLati": -21.644216,
+      "city": "Orick",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 26.439366,
+      "serverLati": -14.299888,
+      "userLongi": 106.013897,
+      "userLati": -33.378066,
+      "city": "Kaka",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -12.911284,
+      "serverLati": -73.202554,
+      "userLongi": 148.249121,
+      "userLati": -85.909556,
+      "city": "Rivera",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 30.656219,
+      "serverLati": -33.544888,
+      "userLongi": 148.015657,
+      "userLati": 15.064544,
+      "city": "Torboy",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 149.362951,
+      "serverLati": -54.133425,
+      "userLongi": -78.160067,
+      "userLati": 78.870869,
+      "city": "Carrizo",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 130.314202,
+      "serverLati": 52.793249,
+      "userLongi": 158.595233,
+      "userLati": 55.762902,
+      "city": "Chesterfield",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -1.098558,
+      "serverLati": 38.57624,
+      "userLongi": -13.193654,
+      "userLati": 60.285571,
+      "city": "Warren",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -59.230351,
+      "serverLati": 83.290536,
+      "userLongi": -19.782946,
+      "userLati": 57.070044,
+      "city": "Windsor",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 155.409863,
+      "serverLati": 43.906688,
+      "userLongi": -164.006607,
+      "userLati": -45.027523,
+      "city": "Statenville",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -88.426266,
+      "serverLati": -27.025547,
+      "userLongi": 54.944757,
+      "userLati": 18.776614,
+      "city": "Nelson",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -129.374742,
+      "serverLati": -53.308194,
+      "userLongi": 167.72796,
+      "userLati": 26.292975,
+      "city": "Rushford",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -79.217362,
+      "serverLati": 30.013902,
+      "userLongi": -13.133519,
+      "userLati": 10.052404,
+      "city": "Kersey",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -21.64792,
+      "serverLati": -54.883815,
+      "userLongi": -97.34246,
+      "userLati": -13.062241,
+      "city": "Nicholson",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 30.413049,
+      "serverLati": -70.729254,
+      "userLongi": 129.654893,
+      "userLati": 16.981325,
+      "city": "Oasis",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -138.512453,
+      "serverLati": 39.342346,
+      "userLongi": 13.798868,
+      "userLati": 18.150508,
+      "city": "Bennett",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 3.088337,
+      "serverLati": 13.78796,
+      "userLongi": 22.410103,
+      "userLati": 13.785295,
+      "city": "Frank",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 144.49034,
+      "serverLati": -16.998857,
+      "userLongi": 73.905863,
+      "userLati": -11.49403,
+      "city": "Riceville",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -95.350313,
+      "serverLati": -10.800362,
+      "userLongi": -38.506812,
+      "userLati": -43.069331,
+      "city": "Osmond",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -140.507765,
+      "serverLati": -34.273829,
+      "userLongi": -167.557324,
+      "userLati": 65.187258,
+      "city": "Tryon",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -162.594134,
+      "serverLati": 17.16146,
+      "userLongi": 64.947781,
+      "userLati": -70.132746,
+      "city": "Cotopaxi",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -55.048798,
+      "serverLati": -39.012147,
+      "userLongi": 174.586238,
+      "userLati": -3.413725,
+      "city": "Remington",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 84.952664,
+      "serverLati": -49.663857,
+      "userLongi": 153.018873,
+      "userLati": -41.731547,
+      "city": "Hondah",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -50.362345,
+      "serverLati": -35.276762,
+      "userLongi": 30.116405,
+      "userLati": 12.319246,
+      "city": "Venice",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 115.411344,
+      "serverLati": -87.651037,
+      "userLongi": 150.998853,
+      "userLati": 30.984515,
+      "city": "Williston",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 157.791697,
+      "serverLati": 23.452102,
+      "userLongi": 152.092355,
+      "userLati": -69.81861,
+      "city": "Snowville",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -67.286951,
+      "serverLati": -88.190142,
+      "userLongi": 45.569615,
+      "userLati": -75.267976,
+      "city": "Bladensburg",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 41.942164,
+      "serverLati": 34.390025,
+      "userLongi": 160.048942,
+      "userLati": 32.257006,
+      "city": "Gallina",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 147.690813,
+      "serverLati": 49.098461,
+      "userLongi": 177.895946,
+      "userLati": -74.798599,
+      "city": "Reno",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 50.357016,
+      "serverLati": -13.314008,
+      "userLongi": -34.336643,
+      "userLati": -65.91154,
+      "city": "Leola",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 71.645235,
+      "serverLati": -68.7549,
+      "userLongi": -14.747233,
+      "userLati": 64.726215,
+      "city": "Kanauga",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 137.427783,
+      "serverLati": -51.114828,
+      "userLongi": -41.225906,
+      "userLati": 54.777967,
+      "city": "Greer",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 172.22617,
+      "serverLati": 64.692847,
+      "userLongi": 1.105111,
+      "userLati": -1.629492,
+      "city": "Cade",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -79.395563,
+      "serverLati": 45.073738,
+      "userLongi": 59.605424,
+      "userLati": -25.300504,
+      "city": "Vincent",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 75.093122,
+      "serverLati": -53.10476,
+      "userLongi": -156.61723,
+      "userLati": 87.630909,
+      "city": "Marenisco",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 114.876397,
+      "serverLati": -77.159184,
+      "userLongi": -67.719211,
+      "userLati": 72.89573,
+      "city": "Bartonsville",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -12.434163,
+      "serverLati": 41.625487,
+      "userLongi": -85.006728,
+      "userLati": 38.645528,
+      "city": "Frierson",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 69.625598,
+      "serverLati": 11.446495,
+      "userLongi": 169.720338,
+      "userLati": -87.514424,
+      "city": "Keller",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -145.544835,
+      "serverLati": -63.904448,
+      "userLongi": 77.301671,
+      "userLati": -4.682937,
+      "city": "Barstow",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 84.673545,
+      "serverLati": -48.474611,
+      "userLongi": 127.664402,
+      "userLati": -75.493188,
+      "city": "Morriston",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 134.513455,
+      "serverLati": 44.529134,
+      "userLongi": 75.015404,
+      "userLati": 77.392158,
+      "city": "Henrietta",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 23.765874,
+      "serverLati": 16.342863,
+      "userLongi": -171.669896,
+      "userLati": 52.558314,
+      "city": "Yukon",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -8.866833,
+      "serverLati": 47.382425,
+      "userLongi": 176.314641,
+      "userLati": -43.018172,
+      "city": "Dyckesville",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 152.772354,
+      "serverLati": 27.225193,
+      "userLongi": 114.87726,
+      "userLati": -74.382251,
+      "city": "Hiseville",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 113.424387,
+      "serverLati": -76.304426,
+      "userLongi": -147.995804,
+      "userLati": -68.19538,
+      "city": "Villarreal",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 114.716478,
+      "serverLati": -53.597003,
+      "userLongi": 20.667935,
+      "userLati": 56.943379,
+      "city": "Weedville",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 29.894091,
+      "serverLati": -87.17412,
+      "userLongi": 43.010459,
+      "userLati": -45.629242,
+      "city": "Guthrie",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 112.417927,
+      "serverLati": 77.587775,
+      "userLongi": -22.492026,
+      "userLati": -67.717005,
+      "city": "Delshire",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 40.005673,
+      "serverLati": 71.204614,
+      "userLongi": -165.439406,
+      "userLati": -4.281558,
+      "city": "Richmond",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -15.677602,
+      "serverLati": -74.702413,
+      "userLongi": -144.971163,
+      "userLati": 62.489405,
+      "city": "Spokane",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -74.843471,
+      "serverLati": -25.736527,
+      "userLongi": 107.267539,
+      "userLati": -25.796678,
+      "city": "Cannondale",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 158.526665,
+      "serverLati": -82.207182,
+      "userLongi": -148.601947,
+      "userLati": 49.53018,
+      "city": "Biehle",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 11.375542,
+      "serverLati": 3.804995,
+      "userLongi": 36.233038,
+      "userLati": -45.886847,
+      "city": "Motley",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -32.136011,
+      "serverLati": -24.706639,
+      "userLongi": 5.865099,
+      "userLati": 84.813936,
+      "city": "Chamberino",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 116.386722,
+      "serverLati": 63.682452,
+      "userLongi": 123.405966,
+      "userLati": -25.791788,
+      "city": "Harborton",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 177.084775,
+      "serverLati": 79.656345,
+      "userLongi": -83.687064,
+      "userLati": -69.702686,
+      "city": "Kingstowne",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -42.125936,
+      "serverLati": 61.188894,
+      "userLongi": -174.684424,
+      "userLati": -74.613184,
+      "city": "Innsbrook",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -63.174843,
+      "serverLati": 42.270419,
+      "userLongi": 140.810699,
+      "userLati": -10.932283,
+      "city": "Faywood",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 30.962989,
+      "serverLati": -39.944381,
+      "userLongi": 88.268451,
+      "userLati": 5.075745,
+      "city": "Caroleen",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -60.800948,
+      "serverLati": 56.716666,
+      "userLongi": 82.238287,
+      "userLati": -61.244255,
+      "city": "Trucksville",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -130.233184,
+      "serverLati": 8.168743,
+      "userLongi": -65.105088,
+      "userLati": 44.664312,
+      "city": "Grazierville",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -178.130743,
+      "serverLati": 36.983178,
+      "userLongi": 115.5127,
+      "userLati": -69.384233,
+      "city": "Williamson",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 41.069045,
+      "serverLati": -61.202857,
+      "userLongi": 43.827245,
+      "userLati": 2.302041,
+      "city": "Hayden",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 111.80589,
+      "serverLati": -29.262788,
+      "userLongi": 79.064147,
+      "userLati": 7.549307,
+      "city": "Fedora",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 74.26802,
+      "serverLati": 3.316332,
+      "userLongi": 13.620513,
+      "userLati": 55.667999,
+      "city": "Temperanceville",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -56.31464,
+      "serverLati": 50.595399,
+      "userLongi": -106.523828,
+      "userLati": 75.088142,
+      "city": "Nash",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 78.685761,
+      "serverLati": -63.560243,
+      "userLongi": -164.861208,
+      "userLati": 37.038641,
+      "city": "Rodman",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -98.363649,
+      "serverLati": 66.875473,
+      "userLongi": 2.763261,
+      "userLati": 33.968366,
+      "city": "Sandston",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -27.027227,
+      "serverLati": -62.593679,
+      "userLongi": 71.833915,
+      "userLati": 42.760668,
+      "city": "Deputy",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -32.221557,
+      "serverLati": 84.489565,
+      "userLongi": 137.514534,
+      "userLati": -74.79744,
+      "city": "Fairlee",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 82.072828,
+      "serverLati": -60.78766,
+      "userLongi": 160.616871,
+      "userLati": -86.964951,
+      "city": "Thomasville",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -111.194854,
+      "serverLati": -0.953302,
+      "userLongi": -114.683955,
+      "userLati": -16.793332,
+      "city": "Nogal",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 144.986293,
+      "serverLati": 79.459075,
+      "userLongi": 19.985921,
+      "userLati": -21.50957,
+      "city": "Coral",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -154.827994,
+      "serverLati": 82.562162,
+      "userLongi": 13.677671,
+      "userLati": 73.138754,
+      "city": "Veguita",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 139.231732,
+      "serverLati": 64.16066,
+      "userLongi": -61.009549,
+      "userLati": 67.8147,
+      "city": "Steinhatchee",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 178.398283,
+      "serverLati": -4.647258,
+      "userLongi": -90.638793,
+      "userLati": 27.663286,
+      "city": "Fingerville",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -92.268421,
+      "serverLati": 82.389544,
+      "userLongi": 75.257292,
+      "userLati": 51.048391,
+      "city": "Sattley",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 101.625612,
+      "serverLati": -74.740749,
+      "userLongi": 84.237345,
+      "userLati": -23.177233,
+      "city": "Floriston",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 1.897731,
+      "serverLati": 17.919367,
+      "userLongi": -4.606054,
+      "userLati": 56.861575,
+      "city": "Woodlake",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -107.523562,
+      "serverLati": -23.875,
+      "userLongi": 78.98666,
+      "userLati": 4.471514,
+      "city": "National",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -26.568108,
+      "serverLati": -44.724189,
+      "userLongi": -137.421267,
+      "userLati": -74.312338,
+      "city": "Juarez",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 152.120927,
+      "serverLati": 32.874986,
+      "userLongi": -90.783061,
+      "userLati": -55.199099,
+      "city": "Belgreen",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -35.645541,
+      "serverLati": 78.57922,
+      "userLongi": 70.10697,
+      "userLati": 10.246475,
+      "city": "Takilma",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -88.898166,
+      "serverLati": -49.732098,
+      "userLongi": 29.024522,
+      "userLati": -51.477593,
+      "city": "Bluetown",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -13.364658,
+      "serverLati": 12.506035,
+      "userLongi": 140.70867,
+      "userLati": 56.871074,
+      "city": "Riegelwood",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 34.250848,
+      "serverLati": 66.874058,
+      "userLongi": -127.967634,
+      "userLati": -30.08922,
+      "city": "Vicksburg",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 43.640679,
+      "serverLati": 59.174864,
+      "userLongi": 93.625988,
+      "userLati": -24.548786,
+      "city": "Zeba",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 94.907814,
+      "serverLati": 32.607155,
+      "userLongi": -69.219943,
+      "userLati": -57.866883,
+      "city": "Trona",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 154.966215,
+      "serverLati": 24.91076,
+      "userLongi": -88.95615,
+      "userLati": -76.744261,
+      "city": "Brecon",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 33.596538,
+      "serverLati": 84.812402,
+      "userLongi": -102.350282,
+      "userLati": -18.63035,
+      "city": "Adelino",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -173.721798,
+      "serverLati": 57.888211,
+      "userLongi": 20.402046,
+      "userLati": 25.476886,
+      "city": "Roulette",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -163.16839,
+      "serverLati": 25.358951,
+      "userLongi": 30.920215,
+      "userLati": -70.749969,
+      "city": "Cowiche",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -167.058548,
+      "serverLati": -53.257,
+      "userLongi": -175.195493,
+      "userLati": 62.560064,
+      "city": "Rivereno",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 136.226939,
+      "serverLati": -2.313719,
+      "userLongi": -54.379888,
+      "userLati": -83.115881,
+      "city": "Alleghenyville",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -143.104213,
+      "serverLati": -31.543665,
+      "userLongi": -62.849293,
+      "userLati": 32.979856,
+      "city": "Blanco",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 14.524673,
+      "serverLati": -38.655465,
+      "userLongi": -46.275988,
+      "userLati": 51.242776,
+      "city": "Brethren",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -5.356393,
+      "serverLati": 63.342217,
+      "userLongi": -54.416026,
+      "userLati": 42.351198,
+      "city": "Succasunna",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -69.709264,
+      "serverLati": -68.168955,
+      "userLongi": -41.184259,
+      "userLati": 45.811602,
+      "city": "Sylvanite",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -91.158915,
+      "serverLati": -31.805857,
+      "userLongi": -41.023479,
+      "userLati": 33.223212,
+      "city": "Sisquoc",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 118.219042,
+      "serverLati": -49.905518,
+      "userLongi": 20.000105,
+      "userLati": -72.04178,
+      "city": "Gorst",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 101.166139,
+      "serverLati": 84.649073,
+      "userLongi": 38.023052,
+      "userLati": -79.158579,
+      "city": "Whitmer",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -135.473987,
+      "serverLati": 82.371454,
+      "userLongi": 11.343322,
+      "userLati": -0.549348,
+      "city": "Libertytown",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -51.944187,
+      "serverLati": 39.179351,
+      "userLongi": -151.44274,
+      "userLati": 78.884639,
+      "city": "Grahamtown",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 168.600569,
+      "serverLati": -4.525182,
+      "userLongi": 1.883321,
+      "userLati": 47.610528,
+      "city": "Evergreen",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 48.304183,
+      "serverLati": -42.578931,
+      "userLongi": 17.041588,
+      "userLati": -23.206412,
+      "city": "Matheny",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 94.808223,
+      "serverLati": 35.874139,
+      "userLongi": 82.694125,
+      "userLati": -62.637897,
+      "city": "Lemoyne",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 92.484295,
+      "serverLati": -87.761461,
+      "userLongi": 169.259984,
+      "userLati": -4.465136,
+      "city": "Ona",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 79.423778,
+      "serverLati": 25.523365,
+      "userLongi": -153.691897,
+      "userLati": -47.646161,
+      "city": "Osage",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -138.068541,
+      "serverLati": -17.485988,
+      "userLongi": 48.880993,
+      "userLati": -83.576329,
+      "city": "Century",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 0.695483,
+      "serverLati": 15.916869,
+      "userLongi": -165.227406,
+      "userLati": 20.999695,
+      "city": "Tioga",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 63.345845,
+      "serverLati": 28.727288,
+      "userLongi": 16.168091,
+      "userLati": -52.848297,
+      "city": "Cawood",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -33.723402,
+      "serverLati": 84.910183,
+      "userLongi": 96.135465,
+      "userLati": 84.344447,
+      "city": "Shelby",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -144.126108,
+      "serverLati": 21.773726,
+      "userLongi": 166.462033,
+      "userLati": -80.691816,
+      "city": "Cedarville",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -16.215806,
+      "serverLati": -63.929321,
+      "userLongi": 128.860386,
+      "userLati": 87.064478,
+      "city": "Malo",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 76.566726,
+      "serverLati": -44.397841,
+      "userLongi": 2.745177,
+      "userLati": 14.234146,
+      "city": "Waterford",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 66.703949,
+      "serverLati": 9.687666,
+      "userLongi": -106.295036,
+      "userLati": 41.495495,
+      "city": "Lodoga",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -67.174203,
+      "serverLati": 73.161929,
+      "userLongi": -99.442661,
+      "userLati": -30.32965,
+      "city": "Oceola",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -96.820435,
+      "serverLati": 80.985289,
+      "userLongi": -133.539805,
+      "userLati": -47.508469,
+      "city": "Brooktrails",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 116.158646,
+      "serverLati": 17.553787,
+      "userLongi": -129.524989,
+      "userLati": -5.784895,
+      "city": "Staples",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -84.5149,
+      "serverLati": 89.812932,
+      "userLongi": 41.227829,
+      "userLati": 24.264306,
+      "city": "Hachita",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 59.38078,
+      "serverLati": -87.293011,
+      "userLongi": 138.264714,
+      "userLati": -56.168698,
+      "city": "Farmington",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -78.472063,
+      "serverLati": -67.008455,
+      "userLongi": -113.820838,
+      "userLati": 58.864525,
+      "city": "Ogema",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 125.028925,
+      "serverLati": -3.287049,
+      "userLongi": -7.284447,
+      "userLati": 8.87256,
+      "city": "Abrams",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -97.181223,
+      "serverLati": -24.72085,
+      "userLongi": -4.823946,
+      "userLati": -57.643503,
+      "city": "Jenkinsville",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 31.479575,
+      "serverLati": 13.968146,
+      "userLongi": 65.040373,
+      "userLati": -12.211828,
+      "city": "Jacksonwald",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 81.947933,
+      "serverLati": -35.460616,
+      "userLongi": 121.641487,
+      "userLati": -76.803514,
+      "city": "Chapin",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -131.377455,
+      "serverLati": 26.424648,
+      "userLongi": -67.302098,
+      "userLati": 14.419636,
+      "city": "Snyderville",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 178.425916,
+      "serverLati": 76.50455,
+      "userLongi": 88.117458,
+      "userLati": -18.774155,
+      "city": "Emory",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 106.38698,
+      "serverLati": -88.423471,
+      "userLongi": 144.368984,
+      "userLati": -6.06995,
+      "city": "Ola",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -118.727736,
+      "serverLati": -87.908566,
+      "userLongi": -141.389,
+      "userLati": -75.778132,
+      "city": "Weogufka",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 8.567342,
+      "serverLati": 42.131557,
+      "userLongi": -89.719217,
+      "userLati": 27.19747,
+      "city": "Dowling",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 4.792828,
+      "serverLati": -23.518631,
+      "userLongi": 130.909581,
+      "userLati": 58.243272,
+      "city": "Gibbsville",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -80.153172,
+      "serverLati": -88.866412,
+      "userLongi": 172.760004,
+      "userLati": 77.162366,
+      "city": "Gouglersville",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -168.918814,
+      "serverLati": -73.522965,
+      "userLongi": 72.969408,
+      "userLati": -56.607054,
+      "city": "Gorham",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -65.447683,
+      "serverLati": -35.964982,
+      "userLongi": -16.996021,
+      "userLati": 13.556146,
+      "city": "Hampstead",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 47.76866,
+      "serverLati": 8.791848,
+      "userLongi": 134.148354,
+      "userLati": 89.880406,
+      "city": "Tecolotito",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -23.794425,
+      "serverLati": 27.76015,
+      "userLongi": 173.830488,
+      "userLati": 18.395004,
+      "city": "Fresno",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -42.850722,
+      "serverLati": -86.591338,
+      "userLongi": 85.594823,
+      "userLati": 82.969018,
+      "city": "Ticonderoga",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 162.975841,
+      "serverLati": -28.008107,
+      "userLongi": 131.864607,
+      "userLati": -64.70053,
+      "city": "Sedley",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 130.551925,
+      "serverLati": -26.556323,
+      "userLongi": 140.077274,
+      "userLati": 57.969902,
+      "city": "Cornucopia",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -122.005139,
+      "serverLati": 68.053316,
+      "userLongi": 172.140286,
+      "userLati": 2.564816,
+      "city": "Castleton",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -170.453509,
+      "serverLati": -38.328723,
+      "userLongi": 53.662479,
+      "userLati": 30.562308,
+      "city": "Rosine",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -142.162067,
+      "serverLati": -79.616282,
+      "userLongi": -121.133227,
+      "userLati": 41.568253,
+      "city": "Waumandee",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -147.524747,
+      "serverLati": -16.648502,
+      "userLongi": 33.947045,
+      "userLati": 48.526437,
+      "city": "Drummond",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 76.637011,
+      "serverLati": 63.187082,
+      "userLongi": -32.252867,
+      "userLati": 72.898189,
+      "city": "Chase",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -0.421331,
+      "serverLati": 34.178542,
+      "userLongi": -35.608166,
+      "userLati": -42.467892,
+      "city": "Gratton",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -63.197016,
+      "serverLati": 20.267131,
+      "userLongi": -98.259747,
+      "userLati": -41.439038,
+      "city": "Maxville",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 153.069431,
+      "serverLati": 31.128279,
+      "userLongi": -3.347666,
+      "userLati": 68.357779,
+      "city": "Fairview",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -129.159718,
+      "serverLati": 89.96335,
+      "userLongi": -38.999865,
+      "userLati": -16.77663,
+      "city": "Chaparrito",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -11.989557,
+      "serverLati": -2.58661,
+      "userLongi": 169.485465,
+      "userLati": -40.446623,
+      "city": "Bowden",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -95.842753,
+      "serverLati": 48.353175,
+      "userLongi": -26.978156,
+      "userLati": -1.94511,
+      "city": "Sunbury",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 7.48376,
+      "serverLati": -51.467281,
+      "userLongi": -49.749691,
+      "userLati": -58.661593,
+      "city": "Norvelt",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 72.460874,
+      "serverLati": 87.424857,
+      "userLongi": 49.465867,
+      "userLati": -75.847772,
+      "city": "Stewartville",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -68.673089,
+      "serverLati": 14.426417,
+      "userLongi": -60.868317,
+      "userLati": -2.678501,
+      "city": "Dennard",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -56.113249,
+      "serverLati": -30.957329,
+      "userLongi": -14.226377,
+      "userLati": 10.893617,
+      "city": "Waiohinu",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -30.261906,
+      "serverLati": -46.730298,
+      "userLongi": -67.173325,
+      "userLati": -18.457917,
+      "city": "Lafferty",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 75.904303,
+      "serverLati": 64.311838,
+      "userLongi": 61.077542,
+      "userLati": 30.704169,
+      "city": "Catharine",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -105.814243,
+      "serverLati": 27.754698,
+      "userLongi": 156.99996,
+      "userLati": 86.86078,
+      "city": "Kimmell",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -108.414178,
+      "serverLati": -48.24709,
+      "userLongi": -5.102693,
+      "userLati": 10.024994,
+      "city": "Celeryville",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -25.243016,
+      "serverLati": 74.674131,
+      "userLongi": 57.789956,
+      "userLati": 78.978088,
+      "city": "Brady",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 29.251201,
+      "serverLati": 24.866573,
+      "userLongi": -37.968598,
+      "userLati": 15.496236,
+      "city": "Strykersville",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 117.572075,
+      "serverLati": -43.781331,
+      "userLongi": -167.76989,
+      "userLati": 25.904242,
+      "city": "Harrodsburg",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -168.027333,
+      "serverLati": 6.711666,
+      "userLongi": -141.855448,
+      "userLati": -85.624532,
+      "city": "Orovada",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -165.234934,
+      "serverLati": 14.780935,
+      "userLongi": 19.816184,
+      "userLati": -8.054456,
+      "city": "Kraemer",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 159.351844,
+      "serverLati": 20.474016,
+      "userLongi": 51.719574,
+      "userLati": 38.054483,
+      "city": "Seymour",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 48.37403,
+      "serverLati": 15.822381,
+      "userLongi": 67.101901,
+      "userLati": 6.422896,
+      "city": "Moscow",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 36.759369,
+      "serverLati": 33.708691,
+      "userLongi": 28.413847,
+      "userLati": 49.271659,
+      "city": "Makena",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -159.955578,
+      "serverLati": 53.513971,
+      "userLongi": -30.686223,
+      "userLati": 83.606452,
+      "city": "Jacksonburg",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -48.117458,
+      "serverLati": 77.452235,
+      "userLongi": 34.408087,
+      "userLati": -23.989431,
+      "city": "Marion",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -76.126521,
+      "serverLati": -50.287455,
+      "userLongi": -25.843928,
+      "userLati": -12.010171,
+      "city": "Konterra",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -32.726468,
+      "serverLati": 34.54133,
+      "userLongi": -57.048417,
+      "userLati": -48.785526,
+      "city": "Coventry",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 51.973799,
+      "serverLati": -41.370446,
+      "userLongi": 161.062497,
+      "userLati": -67.664617,
+      "city": "Finzel",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 4.75105,
+      "serverLati": -65.836725,
+      "userLongi": -137.396643,
+      "userLati": 39.377975,
+      "city": "Hebron",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -33.945671,
+      "serverLati": 3.723564,
+      "userLongi": 25.433306,
+      "userLati": -47.986101,
+      "city": "Juntura",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 133.650876,
+      "serverLati": 37.715853,
+      "userLongi": 167.333873,
+      "userLati": 84.656389,
+      "city": "Romeville",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -92.399767,
+      "serverLati": 22.367482,
+      "userLongi": 76.941403,
+      "userLati": 0.88917,
+      "city": "Cetronia",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 168.493269,
+      "serverLati": 58.848388,
+      "userLongi": -154.623922,
+      "userLati": 49.948628,
+      "city": "Lindisfarne",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -130.050319,
+      "serverLati": 24.834077,
+      "userLongi": 120.092874,
+      "userLati": -72.843048,
+      "city": "Comptche",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 7.620051,
+      "serverLati": 8.156953,
+      "userLongi": 60.326584,
+      "userLati": -88.821581,
+      "city": "Draper",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 47.352022,
+      "serverLati": 37.074631,
+      "userLongi": -116.803289,
+      "userLati": 4.755665,
+      "city": "Harmon",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 53.848601,
+      "serverLati": -50.095261,
+      "userLongi": 151.052625,
+      "userLati": -87.108727,
+      "city": "Escondida",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 179.610355,
+      "serverLati": -87.867478,
+      "userLongi": -43.580569,
+      "userLati": -33.347918,
+      "city": "Eastvale",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -28.700661,
+      "serverLati": 64.53387,
+      "userLongi": -70.531247,
+      "userLati": 47.338866,
+      "city": "Gardiner",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 17.763252,
+      "serverLati": -7.480197,
+      "userLongi": -150.621141,
+      "userLati": -50.33513,
+      "city": "Harold",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 89.202904,
+      "serverLati": -82.544153,
+      "userLongi": 125.408148,
+      "userLati": 6.654535,
+      "city": "Efland",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -3.391159,
+      "serverLati": 33.876683,
+      "userLongi": -31.164489,
+      "userLati": 55.056946,
+      "city": "Dixonville",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -31.700936,
+      "serverLati": -79.307356,
+      "userLongi": -147.417076,
+      "userLati": 25.936762,
+      "city": "Naomi",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 6.068501,
+      "serverLati": 23.233537,
+      "userLongi": 3.535623,
+      "userLati": 6.633581,
+      "city": "Marienthal",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -114.772583,
+      "serverLati": 52.399396,
+      "userLongi": 41.942096,
+      "userLati": 42.755693,
+      "city": "Caln",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 160.100692,
+      "serverLati": 51.039704,
+      "userLongi": -53.211927,
+      "userLati": -53.939863,
+      "city": "Tooleville",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 56.307944,
+      "serverLati": -20.184441,
+      "userLongi": 178.9204,
+      "userLati": 39.752206,
+      "city": "Watchtower",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 45.392898,
+      "serverLati": 67.438695,
+      "userLongi": -157.658737,
+      "userLati": -45.466437,
+      "city": "Kansas",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -130.195847,
+      "serverLati": 66.496635,
+      "userLongi": 115.491437,
+      "userLati": 3.136398,
+      "city": "Roosevelt",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 19.449699,
+      "serverLati": -44.158813,
+      "userLongi": -46.667253,
+      "userLati": 72.145914,
+      "city": "Rutherford",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 20.141589,
+      "serverLati": -26.896327,
+      "userLongi": 112.242067,
+      "userLati": 20.094622,
+      "city": "Wattsville",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -81.157991,
+      "serverLati": -77.179617,
+      "userLongi": 145.877521,
+      "userLati": 12.201631,
+      "city": "Freelandville",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 15.757597,
+      "serverLati": -17.458516,
+      "userLongi": -7.715358,
+      "userLati": 63.522583,
+      "city": "Coinjock",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 96.421725,
+      "serverLati": -30.616057,
+      "userLongi": 129.223262,
+      "userLati": -68.923499,
+      "city": "Witmer",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 61.164062,
+      "serverLati": 30.154642,
+      "userLongi": 110.827072,
+      "userLati": -8.40569,
+      "city": "Allamuchy",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 97.032259,
+      "serverLati": 88.648533,
+      "userLongi": 76.091648,
+      "userLati": 40.774599,
+      "city": "Stockwell",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 124.565132,
+      "serverLati": 57.346974,
+      "userLongi": 141.920199,
+      "userLati": -61.933625,
+      "city": "Robbins",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -5.554017,
+      "serverLati": -67.645376,
+      "userLongi": 36.115336,
+      "userLati": -10.628299,
+      "city": "Chestnut",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -26.88118,
+      "serverLati": 89.657497,
+      "userLongi": -11.677661,
+      "userLati": 19.751272,
+      "city": "Oneida",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 176.594499,
+      "serverLati": 28.037005,
+      "userLongi": 79.469704,
+      "userLati": 76.421243,
+      "city": "Roy",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 176.58989,
+      "serverLati": -71.638937,
+      "userLongi": 97.479306,
+      "userLati": -76.18005,
+      "city": "Grapeview",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -71.219538,
+      "serverLati": -30.471713,
+      "userLongi": 9.747373,
+      "userLati": -84.057532,
+      "city": "Santel",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -126.226791,
+      "serverLati": 84.157855,
+      "userLongi": -121.806065,
+      "userLati": -9.171676,
+      "city": "Hailesboro",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 95.852992,
+      "serverLati": -76.360097,
+      "userLongi": -17.665171,
+      "userLati": 47.870515,
+      "city": "Dale",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -24.784151,
+      "serverLati": -68.828646,
+      "userLongi": 172.576507,
+      "userLati": -51.098366,
+      "city": "Ebro",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 11.909728,
+      "serverLati": 42.382278,
+      "userLongi": 153.982876,
+      "userLati": 88.910578,
+      "city": "Indio",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 79.788517,
+      "serverLati": -76.932121,
+      "userLongi": -29.402529,
+      "userLati": 82.79034,
+      "city": "Alden",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -5.054425,
+      "serverLati": 51.267127,
+      "userLongi": 151.586512,
+      "userLati": -8.152679,
+      "city": "Woodlands",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 155.075564,
+      "serverLati": 15.48453,
+      "userLongi": 84.894561,
+      "userLati": 53.424806,
+      "city": "Cliff",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 28.566449,
+      "serverLati": -86.449598,
+      "userLongi": 158.152586,
+      "userLati": -51.125623,
+      "city": "Muir",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 178.865889,
+      "serverLati": -40.93654,
+      "userLongi": 16.432506,
+      "userLati": -38.972284,
+      "city": "Beaverdale",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 80.934847,
+      "serverLati": -39.421867,
+      "userLongi": -26.42727,
+      "userLati": -87.734267,
+      "city": "Byrnedale",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 9.296713,
+      "serverLati": 13.824709,
+      "userLongi": 156.518058,
+      "userLati": 11.765701,
+      "city": "Crown",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 9.547658,
+      "serverLati": -62.34661,
+      "userLongi": -141.124503,
+      "userLati": 75.999532,
+      "city": "Sehili",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 43.58072,
+      "serverLati": -33.043569,
+      "userLongi": -154.384789,
+      "userLati": 74.056486,
+      "city": "Walton",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 104.421147,
+      "serverLati": -83.366239,
+      "userLongi": -63.891089,
+      "userLati": 35.699655,
+      "city": "Beason",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 128.366016,
+      "serverLati": 48.554519,
+      "userLongi": 134.823469,
+      "userLati": 5.787844,
+      "city": "Wakarusa",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 125.417376,
+      "serverLati": -31.16563,
+      "userLongi": 148.758625,
+      "userLati": 4.915794,
+      "city": "Berlin",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -40.162867,
+      "serverLati": 24.513893,
+      "userLongi": 43.702859,
+      "userLati": -48.662521,
+      "city": "Wawona",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 54.117295,
+      "serverLati": 21.17308,
+      "userLongi": 124.407935,
+      "userLati": -51.062909,
+      "city": "Gracey",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -127.041175,
+      "serverLati": -88.868488,
+      "userLongi": 97.385089,
+      "userLati": 67.236384,
+      "city": "Wyano",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 116.05077,
+      "serverLati": -71.576066,
+      "userLongi": -147.01387,
+      "userLati": 20.332118,
+      "city": "Bethany",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 95.935049,
+      "serverLati": 57.067084,
+      "userLongi": -135.258046,
+      "userLati": 82.399672,
+      "city": "Nescatunga",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 63.928257,
+      "serverLati": -59.243957,
+      "userLongi": 130.811219,
+      "userLati": -45.119669,
+      "city": "Cresaptown",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -133.466981,
+      "serverLati": 1.238928,
+      "userLongi": -34.713904,
+      "userLati": -66.698032,
+      "city": "Hilltop",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -49.067339,
+      "serverLati": 17.168978,
+      "userLongi": -35.073685,
+      "userLati": -53.189647,
+      "city": "Crisman",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 83.398383,
+      "serverLati": 68.67331,
+      "userLongi": -99.239379,
+      "userLati": 28.365224,
+      "city": "Fillmore",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -14.285867,
+      "serverLati": 72.65682,
+      "userLongi": 0.786938,
+      "userLati": -21.456266,
+      "city": "Bangor",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 160.217036,
+      "serverLati": 87.490114,
+      "userLongi": 17.235821,
+      "userLati": 18.409954,
+      "city": "Caroline",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 99.784486,
+      "serverLati": 63.547182,
+      "userLongi": -142.262912,
+      "userLati": -82.021424,
+      "city": "Smeltertown",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -99.289172,
+      "serverLati": -85.112025,
+      "userLongi": -115.642965,
+      "userLati": 60.853779,
+      "city": "Sharon",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -167.947058,
+      "serverLati": 63.716564,
+      "userLongi": 37.041939,
+      "userLati": 25.08652,
+      "city": "Haena",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 70.425742,
+      "serverLati": -54.284957,
+      "userLongi": -123.26025,
+      "userLati": 24.394808,
+      "city": "Mulberry",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -39.086177,
+      "serverLati": -59.118529,
+      "userLongi": 124.411148,
+      "userLati": 83.929381,
+      "city": "Websterville",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 58.236152,
+      "serverLati": -40.886793,
+      "userLongi": -28.777736,
+      "userLati": 3.744239,
+      "city": "Driftwood",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -64.971525,
+      "serverLati": -55.62697,
+      "userLongi": 3.296133,
+      "userLati": 27.800642,
+      "city": "Bethpage",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 104.655394,
+      "serverLati": 18.236371,
+      "userLongi": -44.257465,
+      "userLati": -42.663279,
+      "city": "Downsville",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -21.171203,
+      "serverLati": -69.867914,
+      "userLongi": 172.491586,
+      "userLati": -64.527725,
+      "city": "Herlong",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -43.198544,
+      "serverLati": 84.714284,
+      "userLongi": 19.698764,
+      "userLati": 59.280173,
+      "city": "Shepardsville",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 87.286391,
+      "serverLati": 31.635353,
+      "userLongi": -104.670314,
+      "userLati": -52.781214,
+      "city": "Islandia",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 5.960289,
+      "serverLati": -7.31238,
+      "userLongi": -133.296061,
+      "userLati": -75.260632,
+      "city": "Deseret",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -123.948783,
+      "serverLati": -64.369123,
+      "userLongi": -125.18363,
+      "userLati": 5.034773,
+      "city": "Dante",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -25.025694,
+      "serverLati": -4.563952,
+      "userLongi": 174.738353,
+      "userLati": -85.705889,
+      "city": "Baker",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -147.824517,
+      "serverLati": 6.60115,
+      "userLongi": -67.383417,
+      "userLati": 44.451012,
+      "city": "Talpa",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 143.839578,
+      "serverLati": 78.844743,
+      "userLongi": -149.963702,
+      "userLati": -74.727445,
+      "city": "Hall",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 73.217972,
+      "serverLati": 17.169663,
+      "userLongi": -72.521431,
+      "userLati": -42.195103,
+      "city": "Chloride",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 60.298064,
+      "serverLati": -20.466089,
+      "userLongi": -18.927347,
+      "userLati": -52.967515,
+      "city": "Madaket",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 178.166972,
+      "serverLati": 88.300192,
+      "userLongi": 33.571957,
+      "userLati": -30.059746,
+      "city": "Ladera",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -43.283654,
+      "serverLati": 80.649044,
+      "userLongi": -29.116196,
+      "userLati": -33.915172,
+      "city": "Selma",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 48.401356,
+      "serverLati": 22.790729,
+      "userLongi": 135.854592,
+      "userLati": -41.080082,
+      "city": "Zortman",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -30.951815,
+      "serverLati": 57.240119,
+      "userLongi": 158.523432,
+      "userLati": 17.757249,
+      "city": "Longbranch",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 112.301988,
+      "serverLati": -60.772667,
+      "userLongi": -50.324868,
+      "userLati": 35.256014,
+      "city": "Gilgo",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 125.782546,
+      "serverLati": 69.599283,
+      "userLongi": -73.319989,
+      "userLati": 33.936263,
+      "city": "Ada",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -97.243473,
+      "serverLati": -88.04781,
+      "userLongi": 138.219778,
+      "userLati": -69.983895,
+      "city": "Rossmore",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -83.099605,
+      "serverLati": -47.130534,
+      "userLongi": 122.071618,
+      "userLati": 20.52316,
+      "city": "Tetherow",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 34.746747,
+      "serverLati": 19.794298,
+      "userLongi": 139.745523,
+      "userLati": 64.728569,
+      "city": "Ahwahnee",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -102.496057,
+      "serverLati": -73.374043,
+      "userLongi": -130.683921,
+      "userLati": -42.154307,
+      "city": "Oberlin",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -139.061339,
+      "serverLati": -2.645466,
+      "userLongi": -22.412022,
+      "userLati": 39.547422,
+      "city": "Ruffin",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -170.852914,
+      "serverLati": -23.318869,
+      "userLongi": -177.111113,
+      "userLati": 27.366053,
+      "city": "Lupton",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -29.76843,
+      "serverLati": -79.745075,
+      "userLongi": 157.885427,
+      "userLati": 27.492604,
+      "city": "Montura",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 161.588829,
+      "serverLati": 7.566441,
+      "userLongi": 154.605546,
+      "userLati": 33.308407,
+      "city": "Bedias",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 128.972431,
+      "serverLati": -22.594379,
+      "userLongi": 106.03168,
+      "userLati": -78.803825,
+      "city": "Cartwright",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -123.660049,
+      "serverLati": -0.305829,
+      "userLongi": -90.196296,
+      "userLati": -21.248922,
+      "city": "Brenton",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -92.149714,
+      "serverLati": 79.43511,
+      "userLongi": 98.760743,
+      "userLati": -20.7026,
+      "city": "Gilmore",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -24.128596,
+      "serverLati": -23.98696,
+      "userLongi": 146.883938,
+      "userLati": -71.11292,
+      "city": "Floris",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 22.805402,
+      "serverLati": 84.9623,
+      "userLongi": -165.931761,
+      "userLati": -87.792386,
+      "city": "Blanford",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -52.451948,
+      "serverLati": -18.212344,
+      "userLongi": 70.077235,
+      "userLati": 22.237661,
+      "city": "Austinburg",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -89.011474,
+      "serverLati": -4.944862,
+      "userLongi": 107.092264,
+      "userLati": -73.0935,
+      "city": "Chautauqua",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 144.756576,
+      "serverLati": 68.129411,
+      "userLongi": 95.808822,
+      "userLati": 33.014879,
+      "city": "Barronett",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -93.245854,
+      "serverLati": -31.469064,
+      "userLongi": -98.455302,
+      "userLati": -87.759689,
+      "city": "Tilleda",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 86.675989,
+      "serverLati": -84.647899,
+      "userLongi": -93.864062,
+      "userLati": 28.82311,
+      "city": "Camino",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 154.85977,
+      "serverLati": -60.545947,
+      "userLongi": -38.920387,
+      "userLati": 25.45933,
+      "city": "Smock",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -161.931835,
+      "serverLati": -53.515087,
+      "userLongi": 159.121472,
+      "userLati": 23.318161,
+      "city": "Enlow",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -137.72864,
+      "serverLati": -23.180403,
+      "userLongi": 143.135411,
+      "userLati": 1.377243,
+      "city": "Graball",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 4.573644,
+      "serverLati": 53.774603,
+      "userLongi": 53.041095,
+      "userLati": 80.12864,
+      "city": "Caspar",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -16.063478,
+      "serverLati": 68.049902,
+      "userLongi": -151.718806,
+      "userLati": 74.103695,
+      "city": "Nutrioso",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 111.185505,
+      "serverLati": 2.763567,
+      "userLongi": 64.188077,
+      "userLati": 41.632237,
+      "city": "Greenfields",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -162.580927,
+      "serverLati": -56.611528,
+      "userLongi": 155.574914,
+      "userLati": 66.562187,
+      "city": "Harleigh",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -111.391913,
+      "serverLati": 86.649453,
+      "userLongi": -27.286555,
+      "userLati": -24.678633,
+      "city": "Barrelville",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -85.826342,
+      "serverLati": -24.753871,
+      "userLongi": 120.515426,
+      "userLati": -0.817013,
+      "city": "Salunga",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -51.749227,
+      "serverLati": -15.760287,
+      "userLongi": -117.277222,
+      "userLati": -51.446351,
+      "city": "Faxon",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 110.160492,
+      "serverLati": -40.380727,
+      "userLongi": 161.953748,
+      "userLati": 58.81858,
+      "city": "Elizaville",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -57.673187,
+      "serverLati": -55.932384,
+      "userLongi": -103.749635,
+      "userLati": -88.360759,
+      "city": "Eureka",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -105.98838,
+      "serverLati": 62.787368,
+      "userLongi": 21.891285,
+      "userLati": -62.579593,
+      "city": "Riverton",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 56.206956,
+      "serverLati": -51.203759,
+      "userLongi": 14.733433,
+      "userLati": -14.916963,
+      "city": "Blandburg",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -122.108774,
+      "serverLati": 82.94003,
+      "userLongi": -106.819379,
+      "userLati": 60.899797,
+      "city": "Freeburn",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 166.427209,
+      "serverLati": -49.973171,
+      "userLongi": -76.761095,
+      "userLati": -63.313202,
+      "city": "Fidelis",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 40.878267,
+      "serverLati": 32.035329,
+      "userLongi": 177.93644,
+      "userLati": 45.202798,
+      "city": "Dunlo",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 8.599674,
+      "serverLati": -68.358066,
+      "userLongi": -33.8811,
+      "userLati": -71.040337,
+      "city": "Sterling",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 98.680991,
+      "serverLati": -52.479585,
+      "userLongi": 68.203606,
+      "userLati": 21.514568,
+      "city": "Dubois",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 164.947345,
+      "serverLati": 7.648716,
+      "userLongi": 98.128341,
+      "userLati": -42.721488,
+      "city": "Blende",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -142.584421,
+      "serverLati": -55.31701,
+      "userLongi": -23.23451,
+      "userLati": 33.316346,
+      "city": "Bowmansville",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 127.747294,
+      "serverLati": -20.992741,
+      "userLongi": -145.04084,
+      "userLati": 21.407661,
+      "city": "Jardine",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -151.636174,
+      "serverLati": -7.414745,
+      "userLongi": -96.166432,
+      "userLati": -17.162935,
+      "city": "Freetown",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -46.935438,
+      "serverLati": -1.524094,
+      "userLongi": -152.930883,
+      "userLati": -9.463998,
+      "city": "Chicopee",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -42.52319,
+      "serverLati": 69.532941,
+      "userLongi": -46.53571,
+      "userLati": -28.930495,
+      "city": "Worcester",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -77.3732,
+      "serverLati": 56.828087,
+      "userLongi": 44.422141,
+      "userLati": 49.628362,
+      "city": "Kenvil",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 79.398569,
+      "serverLati": 7.442996,
+      "userLongi": -151.633117,
+      "userLati": 48.693695,
+      "city": "Franklin",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 80.778477,
+      "serverLati": -28.873557,
+      "userLongi": 21.118996,
+      "userLati": -8.083897,
+      "city": "Emerald",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -68.350402,
+      "serverLati": 9.96697,
+      "userLongi": -127.864977,
+      "userLati": -74.581052,
+      "city": "Delco",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -157.544284,
+      "serverLati": 39.261626,
+      "userLongi": 125.837832,
+      "userLati": 17.432037,
+      "city": "Garfield",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 140.405133,
+      "serverLati": 36.244896,
+      "userLongi": 32.300125,
+      "userLati": 87.107184,
+      "city": "Leeper",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -152.423661,
+      "serverLati": 60.550269,
+      "userLongi": -153.860877,
+      "userLati": -38.215724,
+      "city": "Lund",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 4.63808,
+      "serverLati": 88.36446,
+      "userLongi": -40.932938,
+      "userLati": -54.202408,
+      "city": "Klondike",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 153.576653,
+      "serverLati": -32.916238,
+      "userLongi": 131.107275,
+      "userLati": 22.033552,
+      "city": "Cutter",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 14.295752,
+      "serverLati": 46.70101,
+      "userLongi": 19.502714,
+      "userLati": -66.231325,
+      "city": "Bawcomville",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 145.004273,
+      "serverLati": 7.022974,
+      "userLongi": -146.513631,
+      "userLati": 72.135978,
+      "city": "Helen",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -142.210129,
+      "serverLati": -54.449583,
+      "userLongi": 139.11071,
+      "userLati": -70.565216,
+      "city": "Sanders",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -19.996616,
+      "serverLati": -64.102552,
+      "userLongi": 108.950225,
+      "userLati": -54.698769,
+      "city": "Marysville",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -68.034876,
+      "serverLati": -76.92434,
+      "userLongi": -83.198843,
+      "userLati": -12.176579,
+      "city": "Washington",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 145.299351,
+      "serverLati": -76.925089,
+      "userLongi": -26.095202,
+      "userLati": -16.79671,
+      "city": "Biddle",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 146.725643,
+      "serverLati": 41.462392,
+      "userLongi": -10.175556,
+      "userLati": -46.24402,
+      "city": "Jacumba",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -67.429572,
+      "serverLati": 81.420226,
+      "userLongi": 2.472845,
+      "userLati": -71.885516,
+      "city": "Ernstville",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -68.455682,
+      "serverLati": -76.287281,
+      "userLongi": 101.890566,
+      "userLati": -23.958591,
+      "city": "Robinson",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 65.38849,
+      "serverLati": 76.063579,
+      "userLongi": -0.599392,
+      "userLati": 67.861158,
+      "city": "Watrous",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 0.270698,
+      "serverLati": -48.724685,
+      "userLongi": -6.761194,
+      "userLati": -79.832596,
+      "city": "Wadsworth",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -115.469978,
+      "serverLati": -43.453393,
+      "userLongi": -5.779396,
+      "userLati": -87.418547,
+      "city": "Brewster",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -58.16873,
+      "serverLati": -88.904433,
+      "userLongi": -82.390657,
+      "userLati": -0.679139,
+      "city": "Boomer",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 178.818714,
+      "serverLati": 12.330147,
+      "userLongi": 34.566715,
+      "userLati": 2.824639,
+      "city": "Garberville",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 112.023636,
+      "serverLati": -86.795424,
+      "userLongi": 43.765895,
+      "userLati": 31.706455,
+      "city": "Morgandale",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -87.481816,
+      "serverLati": 31.483799,
+      "userLongi": -37.503873,
+      "userLati": -62.652983,
+      "city": "Tedrow",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 39.354885,
+      "serverLati": 63.607557,
+      "userLongi": 59.72886,
+      "userLati": 57.205488,
+      "city": "Richford",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 17.845701,
+      "serverLati": 24.808156,
+      "userLongi": -137.462032,
+      "userLati": -25.887028,
+      "city": "Dargan",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -64.404538,
+      "serverLati": -7.721342,
+      "userLongi": 50.00163,
+      "userLati": -28.462218,
+      "city": "Greensburg",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 44.473653,
+      "serverLati": -21.743481,
+      "userLongi": -173.289349,
+      "userLati": -50.066603,
+      "city": "Vaughn",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 105.349264,
+      "serverLati": 63.246051,
+      "userLongi": -176.791737,
+      "userLati": -2.85567,
+      "city": "Coldiron",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 100.141196,
+      "serverLati": -16.999933,
+      "userLongi": 46.184413,
+      "userLati": -7.696472,
+      "city": "Day",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 150.698425,
+      "serverLati": -26.231793,
+      "userLongi": 43.966494,
+      "userLati": -59.086176,
+      "city": "Suitland",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 76.165221,
+      "serverLati": 48.680781,
+      "userLongi": -57.934838,
+      "userLati": -23.576373,
+      "city": "Wanamie",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -80.766829,
+      "serverLati": 79.109207,
+      "userLongi": -161.751766,
+      "userLati": -40.834778,
+      "city": "Reinerton",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 33.340408,
+      "serverLati": 27.001603,
+      "userLongi": -52.076692,
+      "userLati": 11.699455,
+      "city": "Topaz",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 140.419468,
+      "serverLati": 42.119541,
+      "userLongi": -146.878786,
+      "userLati": 5.33513,
+      "city": "Clay",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 16.574352,
+      "serverLati": 62.863061,
+      "userLongi": 54.832354,
+      "userLati": 39.652699,
+      "city": "Boykin",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -114.975418,
+      "serverLati": 52.108526,
+      "userLongi": -110.127107,
+      "userLati": 19.800205,
+      "city": "Mooresburg",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 156.093766,
+      "serverLati": 79.374192,
+      "userLongi": -40.883027,
+      "userLati": 84.305232,
+      "city": "Aurora",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 79.904102,
+      "serverLati": -36.843991,
+      "userLongi": -168.747701,
+      "userLati": -35.526567,
+      "city": "Vale",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -28.813461,
+      "serverLati": 43.206709,
+      "userLongi": -165.603981,
+      "userLati": 24.331465,
+      "city": "Caledonia",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -124.716612,
+      "serverLati": 75.944343,
+      "userLongi": -137.308798,
+      "userLati": 13.705823,
+      "city": "Bentley",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 60.879644,
+      "serverLati": -40.22987,
+      "userLongi": -137.039379,
+      "userLati": -55.553577,
+      "city": "Gerton",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 59.477937,
+      "serverLati": 34.852177,
+      "userLongi": -134.434604,
+      "userLati": -3.69785,
+      "city": "Brule",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -36.770059,
+      "serverLati": 18.498523,
+      "userLongi": 84.44599,
+      "userLati": -83.912485,
+      "city": "Tivoli",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -48.580472,
+      "serverLati": -8.284454,
+      "userLongi": -130.982698,
+      "userLati": -48.800182,
+      "city": "Tilden",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -158.996676,
+      "serverLati": 2.515366,
+      "userLongi": -35.459987,
+      "userLati": -56.227093,
+      "city": "Bath",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -42.325523,
+      "serverLati": -72.315055,
+      "userLongi": 33.818923,
+      "userLati": 47.18109,
+      "city": "Calverton",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 173.232934,
+      "serverLati": -89.874129,
+      "userLongi": -144.445564,
+      "userLati": 78.08546,
+      "city": "Bainbridge",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 89.357191,
+      "serverLati": 72.743207,
+      "userLongi": 75.881996,
+      "userLati": 76.763643,
+      "city": "Coloma",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 35.952563,
+      "serverLati": -33.517547,
+      "userLongi": 142.349288,
+      "userLati": 44.858409,
+      "city": "Caron",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -33.01999,
+      "serverLati": 86.43081,
+      "userLongi": -161.188537,
+      "userLati": -40.581923,
+      "city": "Savannah",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 3.21098,
+      "serverLati": -69.45245,
+      "userLongi": 125.809834,
+      "userLati": -14.974666,
+      "city": "Alfarata",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -8.556376,
+      "serverLati": -1.541208,
+      "userLongi": 176.084578,
+      "userLati": 86.75516,
+      "city": "Healy",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 19.324031,
+      "serverLati": 22.396939,
+      "userLongi": 88.043465,
+      "userLati": -68.590782,
+      "city": "Harviell",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 88.290537,
+      "serverLati": 75.677654,
+      "userLongi": 115.174804,
+      "userLati": -68.493391,
+      "city": "Norwood",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -150.825202,
+      "serverLati": 14.553425,
+      "userLongi": -48.793578,
+      "userLati": -46.382697,
+      "city": "Neahkahnie",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 153.219578,
+      "serverLati": -30.983168,
+      "userLongi": -61.390004,
+      "userLati": -47.219683,
+      "city": "Elrama",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -92.931866,
+      "serverLati": 20.504907,
+      "userLongi": 176.32888,
+      "userLati": -12.726247,
+      "city": "Yettem",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 102.520957,
+      "serverLati": -43.102371,
+      "userLongi": -167.329352,
+      "userLati": 36.730145,
+      "city": "Newcastle",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -67.423601,
+      "serverLati": -82.947571,
+      "userLongi": -9.582708,
+      "userLati": -2.19266,
+      "city": "Sabillasville",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 68.774239,
+      "serverLati": -4.943949,
+      "userLongi": 152.658895,
+      "userLati": -40.603566,
+      "city": "Edneyville",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 122.491553,
+      "serverLati": -26.389596,
+      "userLongi": -18.005257,
+      "userLati": -29.984799,
+      "city": "Brandermill",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 12.075169,
+      "serverLati": -50.727045,
+      "userLongi": 14.551879,
+      "userLati": 84.063334,
+      "city": "Elbert",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -27.309262,
+      "serverLati": -47.368905,
+      "userLongi": 55.91349,
+      "userLati": 4.275439,
+      "city": "Denio",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 50.748398,
+      "serverLati": 29.005918,
+      "userLongi": 153.553398,
+      "userLati": -83.422963,
+      "city": "Ellerslie",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 144.648532,
+      "serverLati": -82.776831,
+      "userLongi": 176.141797,
+      "userLati": 58.527529,
+      "city": "Brownsville",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -74.676761,
+      "serverLati": -86.574467,
+      "userLongi": -56.70677,
+      "userLati": 52.080442,
+      "city": "Kapowsin",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 61.076419,
+      "serverLati": -36.287929,
+      "userLongi": 12.457392,
+      "userLati": -17.533066,
+      "city": "Mapletown",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 97.839971,
+      "serverLati": 27.234016,
+      "userLongi": -69.065513,
+      "userLati": -23.152357,
+      "city": "Hasty",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -2.802558,
+      "serverLati": -84.334944,
+      "userLongi": 150.117998,
+      "userLati": -69.252737,
+      "city": "Rockhill",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 40.371669,
+      "serverLati": 42.699716,
+      "userLongi": 157.858633,
+      "userLati": -52.358208,
+      "city": "Albrightsville",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 167.458451,
+      "serverLati": 25.765516,
+      "userLongi": -83.153986,
+      "userLati": 17.384605,
+      "city": "Riner",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 23.563988,
+      "serverLati": 81.050211,
+      "userLongi": 84.892476,
+      "userLati": 38.980542,
+      "city": "Dawn",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 142.878538,
+      "serverLati": 75.3604,
+      "userLongi": 113.420339,
+      "userLati": 59.673258,
+      "city": "Cucumber",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 98.438997,
+      "serverLati": 24.027873,
+      "userLongi": 86.139919,
+      "userLati": -71.357996,
+      "city": "Bascom",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 14.923807,
+      "serverLati": 82.036855,
+      "userLongi": -14.616666,
+      "userLati": -89.289942,
+      "city": "Edenburg",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -70.731901,
+      "serverLati": 1.654841,
+      "userLongi": 144.469343,
+      "userLati": -54.255517,
+      "city": "Woodburn",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 163.029721,
+      "serverLati": -68.194341,
+      "userLongi": -142.6895,
+      "userLati": 7.585547,
+      "city": "Cochranville",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 104.480703,
+      "serverLati": 42.303522,
+      "userLongi": -148.555499,
+      "userLati": -26.917713,
+      "city": "Spelter",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 78.053544,
+      "serverLati": -3.935199,
+      "userLongi": -76.647002,
+      "userLati": -39.821687,
+      "city": "Walker",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 91.665743,
+      "serverLati": -5.616681,
+      "userLongi": -147.06533,
+      "userLati": -29.472254,
+      "city": "Bannock",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 121.567678,
+      "serverLati": -49.711381,
+      "userLongi": 31.926388,
+      "userLati": -39.886801,
+      "city": "Templeton",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -13.474922,
+      "serverLati": 35.241097,
+      "userLongi": 65.626538,
+      "userLati": -34.096463,
+      "city": "Bloomington",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -108.630683,
+      "serverLati": 21.910431,
+      "userLongi": 12.565185,
+      "userLati": 46.865128,
+      "city": "Hegins",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 62.815893,
+      "serverLati": -67.634203,
+      "userLongi": -161.869625,
+      "userLati": -60.742083,
+      "city": "Chilton",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 24.158629,
+      "serverLati": 79.603111,
+      "userLongi": 96.272019,
+      "userLati": -4.903604,
+      "city": "Alderpoint",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -120.422094,
+      "serverLati": 76.474113,
+      "userLongi": 67.282967,
+      "userLati": 33.018715,
+      "city": "Condon",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 125.199022,
+      "serverLati": -17.658831,
+      "userLongi": -107.790248,
+      "userLati": 78.561479,
+      "city": "Glenbrook",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -15.01612,
+      "serverLati": 4.011786,
+      "userLongi": -178.637309,
+      "userLati": 37.869893,
+      "city": "Idamay",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 41.916223,
+      "serverLati": 75.448313,
+      "userLongi": -121.880466,
+      "userLati": 5.748728,
+      "city": "Klagetoh",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -14.386071,
+      "serverLati": -76.120504,
+      "userLongi": -49.98703,
+      "userLati": 60.938655,
+      "city": "Buxton",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 89.428609,
+      "serverLati": 5.930165,
+      "userLongi": -125.302725,
+      "userLati": -21.304853,
+      "city": "Vowinckel",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 43.368543,
+      "serverLati": -41.549365,
+      "userLongi": 121.060604,
+      "userLati": 59.780317,
+      "city": "Glenville",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 175.320677,
+      "serverLati": 66.107272,
+      "userLongi": 95.590788,
+      "userLati": -58.73765,
+      "city": "Davenport",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 112.841408,
+      "serverLati": -27.943781,
+      "userLongi": 143.304611,
+      "userLati": 63.554498,
+      "city": "Fannett",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -72.07883,
+      "serverLati": 79.292587,
+      "userLongi": -106.725717,
+      "userLati": -67.047154,
+      "city": "Clarktown",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -84.157476,
+      "serverLati": 43.536673,
+      "userLongi": -74.743273,
+      "userLati": 8.639738,
+      "city": "Blackgum",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -87.319796,
+      "serverLati": 66.524534,
+      "userLongi": -162.924225,
+      "userLati": -59.635471,
+      "city": "Riviera",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 88.593866,
+      "serverLati": 69.481354,
+      "userLongi": -15.905608,
+      "userLati": 52.035462,
+      "city": "Dalton",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 3.209746,
+      "serverLati": -29.086874,
+      "userLongi": -47.823116,
+      "userLati": -35.675619,
+      "city": "Nipinnawasee",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -11.235251,
+      "serverLati": 16.939813,
+      "userLongi": 109.85974,
+      "userLati": -36.019829,
+      "city": "Ivanhoe",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -61.242489,
+      "serverLati": -76.536304,
+      "userLongi": -21.109214,
+      "userLati": -72.577156,
+      "city": "Manchester",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 51.141411,
+      "serverLati": 53.267512,
+      "userLongi": -41.461329,
+      "userLati": 24.045397,
+      "city": "Shaft",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -161.363475,
+      "serverLati": 7.826464,
+      "userLongi": -145.912501,
+      "userLati": 77.993108,
+      "city": "Bergoo",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -22.37,
+      "serverLati": 69.251495,
+      "userLongi": 81.545299,
+      "userLati": 52.001939,
+      "city": "Esmont",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -12.887018,
+      "serverLati": -22.655744,
+      "userLongi": 65.177885,
+      "userLati": 38.943385,
+      "city": "Magnolia",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 161.657101,
+      "serverLati": 24.508485,
+      "userLongi": -97.066709,
+      "userLati": 56.877592,
+      "city": "Roderfield",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 20.573921,
+      "serverLati": -59.502939,
+      "userLongi": -9.045828,
+      "userLati": -60.113096,
+      "city": "Longoria",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -86.108201,
+      "serverLati": -64.783472,
+      "userLongi": -35.327977,
+      "userLati": 29.703285,
+      "city": "Hayes",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 50.725476,
+      "serverLati": 55.351064,
+      "userLongi": -35.74395,
+      "userLati": -67.678995,
+      "city": "Alamo",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 3.433463,
+      "serverLati": -1.318346,
+      "userLongi": -11.822801,
+      "userLati": -25.318483,
+      "city": "Grantville",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 168.15263,
+      "serverLati": -86.28152,
+      "userLongi": 111.35988,
+      "userLati": 14.787716,
+      "city": "Homestead",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 6.008126,
+      "serverLati": 26.105987,
+      "userLongi": 36.831272,
+      "userLati": -89.613831,
+      "city": "Northridge",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 48.862387,
+      "serverLati": 21.231543,
+      "userLongi": -148.024951,
+      "userLati": -70.227329,
+      "city": "Eagleville",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 109.655877,
+      "serverLati": -47.701425,
+      "userLongi": 108.111079,
+      "userLati": -59.24155,
+      "city": "Taycheedah",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 66.598599,
+      "serverLati": -57.308692,
+      "userLongi": -73.229401,
+      "userLati": -53.879955,
+      "city": "Welda",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -116.434907,
+      "serverLati": -5.842301,
+      "userLongi": -88.033254,
+      "userLati": 41.696401,
+      "city": "Mahtowa",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 126.801373,
+      "serverLati": 58.081151,
+      "userLongi": 40.201747,
+      "userLati": -13.92147,
+      "city": "Rodanthe",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -91.124289,
+      "serverLati": 46.575187,
+      "userLongi": -65.370037,
+      "userLati": 8.519175,
+      "city": "Springdale",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -165.164116,
+      "serverLati": -73.513749,
+      "userLongi": -50.678805,
+      "userLati": -47.89778,
+      "city": "Bancroft",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -107.414109,
+      "serverLati": 73.153655,
+      "userLongi": 31.7486,
+      "userLati": 16.868548,
+      "city": "Bordelonville",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -142.54331,
+      "serverLati": 83.561571,
+      "userLongi": 64.103958,
+      "userLati": -62.294629,
+      "city": "Blue",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 170.034129,
+      "serverLati": 13.932984,
+      "userLongi": -101.809147,
+      "userLati": 52.41523,
+      "city": "Edgar",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -131.512408,
+      "serverLati": 71.316149,
+      "userLongi": -151.818269,
+      "userLati": -8.281151,
+      "city": "Tuskahoma",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -34.729949,
+      "serverLati": 37.47806,
+      "userLongi": -97.995515,
+      "userLati": 58.332356,
+      "city": "Winchester",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -155.098981,
+      "serverLati": 40.019846,
+      "userLongi": 117.210982,
+      "userLati": -70.104823,
+      "city": "Wright",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 95.371172,
+      "serverLati": 32.5635,
+      "userLongi": 178.711837,
+      "userLati": -58.430554,
+      "city": "Bellamy",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -89.90286,
+      "serverLati": -65.707416,
+      "userLongi": 27.209865,
+      "userLati": 43.601103,
+      "city": "Guilford",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -20.83926,
+      "serverLati": 2.8676,
+      "userLongi": -177.350457,
+      "userLati": 22.685448,
+      "city": "Albany",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -30.731415,
+      "serverLati": 67.034486,
+      "userLongi": 112.264009,
+      "userLati": -26.125233,
+      "city": "Unionville",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -128.803485,
+      "serverLati": -13.162047,
+      "userLongi": 37.971891,
+      "userLati": -2.027721,
+      "city": "Southmont",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 12.399815,
+      "serverLati": -15.057184,
+      "userLongi": 10.949638,
+      "userLati": 42.538532,
+      "city": "Brookfield",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 106.867023,
+      "serverLati": 36.326599,
+      "userLongi": -169.94291,
+      "userLati": -82.591439,
+      "city": "Glenshaw",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 116.292832,
+      "serverLati": 19.952693,
+      "userLongi": 41.864452,
+      "userLati": -28.720451,
+      "city": "Townsend",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 111.246678,
+      "serverLati": -42.305558,
+      "userLongi": 157.541149,
+      "userLati": 6.636834,
+      "city": "Durham",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 124.732638,
+      "serverLati": -45.15737,
+      "userLongi": 109.523558,
+      "userLati": 66.735212,
+      "city": "Yardville",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 141.306293,
+      "serverLati": -59.176358,
+      "userLongi": 37.976448,
+      "userLati": 3.560201,
+      "city": "Eastmont",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 26.614278,
+      "serverLati": -42.256656,
+      "userLongi": -151.280358,
+      "userLati": 37.316175,
+      "city": "Gloucester",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 153.012662,
+      "serverLati": -54.501725,
+      "userLongi": -104.57943,
+      "userLati": 27.764329,
+      "city": "Blodgett",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 46.12457,
+      "serverLati": -65.716212,
+      "userLongi": 128.656418,
+      "userLati": -62.610399,
+      "city": "Fontanelle",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 147.075227,
+      "serverLati": -19.644789,
+      "userLongi": 54.447293,
+      "userLati": 47.187027,
+      "city": "Newry",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 19.494295,
+      "serverLati": -58.956817,
+      "userLongi": 1.286255,
+      "userLati": -73.337462,
+      "city": "Stewart",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -116.742841,
+      "serverLati": -86.554758,
+      "userLongi": -134.016879,
+      "userLati": -69.457227,
+      "city": "Leyner",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -52.021051,
+      "serverLati": 66.497801,
+      "userLongi": -146.412058,
+      "userLati": -30.820828,
+      "city": "Greenock",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -124.838235,
+      "serverLati": -34.587216,
+      "userLongi": -11.103558,
+      "userLati": -76.048265,
+      "city": "Fredericktown",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 150.703967,
+      "serverLati": 89.845187,
+      "userLongi": -131.432605,
+      "userLati": 6.512108,
+      "city": "Holcombe",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -51.729694,
+      "serverLati": 26.828234,
+      "userLongi": -146.804632,
+      "userLati": 48.364873,
+      "city": "Loyalhanna",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 51.903138,
+      "serverLati": 42.049047,
+      "userLongi": 132.181308,
+      "userLati": 47.22974,
+      "city": "Katonah",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 35.3757,
+      "serverLati": 59.674409,
+      "userLongi": 103.755884,
+      "userLati": -83.67203,
+      "city": "Nadine",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -26.639826,
+      "serverLati": 84.504104,
+      "userLongi": -3.262384,
+      "userLati": 56.53419,
+      "city": "Brantleyville",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 85.733106,
+      "serverLati": -10.056052,
+      "userLongi": 115.727924,
+      "userLati": -26.91181,
+      "city": "Saticoy",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 37.759868,
+      "serverLati": 59.281814,
+      "userLongi": 75.221302,
+      "userLati": 31.182305,
+      "city": "Bluffview",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 164.580767,
+      "serverLati": 37.919997,
+      "userLongi": -72.291623,
+      "userLati": 19.815527,
+      "city": "Wheaton",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -67.035898,
+      "serverLati": 14.001536,
+      "userLongi": 54.635352,
+      "userLati": -57.300216,
+      "city": "Kirk",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 59.008964,
+      "serverLati": 49.689109,
+      "userLongi": 4.576482,
+      "userLati": -14.075299,
+      "city": "Holtville",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 35.921711,
+      "serverLati": -84.965757,
+      "userLongi": 170.174842,
+      "userLati": -41.870374,
+      "city": "Foxworth",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -178.67015,
+      "serverLati": -57.799647,
+      "userLongi": 119.236898,
+      "userLati": 1.105684,
+      "city": "Ripley",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -18.739033,
+      "serverLati": -67.66939,
+      "userLongi": 17.810436,
+      "userLati": -24.258451,
+      "city": "Rehrersburg",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 149.128259,
+      "serverLati": -69.707999,
+      "userLongi": 156.636748,
+      "userLati": -73.068731,
+      "city": "Navarre",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -107.957349,
+      "serverLati": -56.621422,
+      "userLongi": 11.69661,
+      "userLati": 44.184949,
+      "city": "Topanga",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -21.815379,
+      "serverLati": -36.03527,
+      "userLongi": 167.061485,
+      "userLati": -10.827582,
+      "city": "Babb",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -123.709664,
+      "serverLati": 61.54799,
+      "userLongi": 0.422115,
+      "userLati": -18.224723,
+      "city": "Enoree",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -133.064326,
+      "serverLati": 35.552649,
+      "userLongi": -152.06495,
+      "userLati": 74.954648,
+      "city": "Wauhillau",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 44.887468,
+      "serverLati": -58.103007,
+      "userLongi": -48.980577,
+      "userLati": 43.929156,
+      "city": "Boyd",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -48.084853,
+      "serverLati": -22.262095,
+      "userLongi": -80.21999,
+      "userLati": -64.106718,
+      "city": "Walland",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 131.789808,
+      "serverLati": -68.522546,
+      "userLongi": -31.826558,
+      "userLati": -44.133228,
+      "city": "Heil",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 118.261705,
+      "serverLati": -26.775093,
+      "userLongi": -144.281113,
+      "userLati": 1.802348,
+      "city": "Aguila",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 175.48701,
+      "serverLati": 61.622293,
+      "userLongi": -147.453949,
+      "userLati": -59.101575,
+      "city": "Hamilton",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 150.576731,
+      "serverLati": -83.80753,
+      "userLongi": 177.311376,
+      "userLati": 64.933801,
+      "city": "Westerville",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -155.289357,
+      "serverLati": -77.772408,
+      "userLongi": -89.146773,
+      "userLati": 10.257445,
+      "city": "Ferney",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -38.282083,
+      "serverLati": 57.193872,
+      "userLongi": -111.592476,
+      "userLati": -0.64014,
+      "city": "Darlington",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 77.288661,
+      "serverLati": -75.833667,
+      "userLongi": 134.840813,
+      "userLati": 48.506793,
+      "city": "Lopezo",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 44.1336,
+      "serverLati": 30.937439,
+      "userLongi": -9.738498,
+      "userLati": 21.308945,
+      "city": "Roberts",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 100.084835,
+      "serverLati": 28.765932,
+      "userLongi": 70.756999,
+      "userLati": 35.896147,
+      "city": "Coyote",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 64.284123,
+      "serverLati": 7.585007,
+      "userLongi": -175.215603,
+      "userLati": 6.60258,
+      "city": "Abiquiu",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -175.077694,
+      "serverLati": 79.467199,
+      "userLongi": 168.35825,
+      "userLati": -56.013302,
+      "city": "Linganore",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 20.987849,
+      "serverLati": -79.586583,
+      "userLongi": -119.546198,
+      "userLati": 16.118593,
+      "city": "Edgewater",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -20.653249,
+      "serverLati": 24.688923,
+      "userLongi": 85.309407,
+      "userLati": -21.18117,
+      "city": "Caberfae",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 6.927865,
+      "serverLati": 50.907842,
+      "userLongi": -96.439342,
+      "userLati": 13.735365,
+      "city": "Maybell",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -73.386983,
+      "serverLati": -21.445411,
+      "userLongi": 168.323294,
+      "userLati": -78.89738,
+      "city": "Dahlen",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -55.24094,
+      "serverLati": 67.238211,
+      "userLongi": -18.229048,
+      "userLati": 58.178677,
+      "city": "Westboro",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 139.368169,
+      "serverLati": 69.01521,
+      "userLongi": -152.421308,
+      "userLati": -76.181813,
+      "city": "Chamizal",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -64.936087,
+      "serverLati": -11.853242,
+      "userLongi": 74.946005,
+      "userLati": 42.104254,
+      "city": "Foscoe",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -52.064397,
+      "serverLati": 76.234903,
+      "userLongi": 71.004917,
+      "userLati": 32.176812,
+      "city": "Loomis",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -46.94411,
+      "serverLati": 74.230058,
+      "userLongi": 14.428236,
+      "userLati": -74.542052,
+      "city": "Genoa",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -171.487218,
+      "serverLati": -80.613276,
+      "userLongi": 155.631472,
+      "userLati": 78.084306,
+      "city": "Westmoreland",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -167.032575,
+      "serverLati": 15.093168,
+      "userLongi": -53.607222,
+      "userLati": -56.06346,
+      "city": "Kenwood",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 50.562623,
+      "serverLati": 77.491026,
+      "userLongi": 106.80988,
+      "userLati": -7.676091,
+      "city": "Rockingham",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -75.749552,
+      "serverLati": -87.339231,
+      "userLongi": -89.894229,
+      "userLati": 62.223323,
+      "city": "Coleville",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -51.899609,
+      "serverLati": -39.594299,
+      "userLongi": -43.578263,
+      "userLati": -71.086516,
+      "city": "Cassel",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 77.324277,
+      "serverLati": -27.766205,
+      "userLongi": 143.446622,
+      "userLati": 33.124513,
+      "city": "Darrtown",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 176.527225,
+      "serverLati": 72.437819,
+      "userLongi": 100.352412,
+      "userLati": 67.654625,
+      "city": "Iola",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -130.007405,
+      "serverLati": -25.694087,
+      "userLongi": -144.28297,
+      "userLati": -84.991353,
+      "city": "Sunwest",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 88.649522,
+      "serverLati": 59.17192,
+      "userLongi": 81.974148,
+      "userLati": -83.293857,
+      "city": "Elfrida",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -92.399914,
+      "serverLati": -30.248856,
+      "userLongi": -137.281182,
+      "userLati": 37.311819,
+      "city": "Detroit",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -103.779004,
+      "serverLati": 65.880256,
+      "userLongi": 160.377732,
+      "userLati": 48.240973,
+      "city": "Kylertown",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 43.604105,
+      "serverLati": -2.357715,
+      "userLongi": 58.007303,
+      "userLati": 22.038685,
+      "city": "Imperial",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 83.133956,
+      "serverLati": -48.702609,
+      "userLongi": 114.941735,
+      "userLati": 6.069221,
+      "city": "Trail",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 1.41568,
+      "serverLati": 42.647252,
+      "userLongi": 170.652085,
+      "userLati": -55.577192,
+      "city": "Finderne",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 40.257767,
+      "serverLati": -31.776844,
+      "userLongi": 43.779462,
+      "userLati": 7.832913,
+      "city": "Echo",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 22.150707,
+      "serverLati": -86.373585,
+      "userLongi": 11.659402,
+      "userLati": -39.624793,
+      "city": "Interlochen",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -46.377803,
+      "serverLati": 17.20486,
+      "userLongi": -137.020788,
+      "userLati": 74.788007,
+      "city": "Dunbar",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 126.003319,
+      "serverLati": -41.096079,
+      "userLongi": 107.379932,
+      "userLati": 20.011337,
+      "city": "Sunriver",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 70.414911,
+      "serverLati": -35.246678,
+      "userLongi": 139.326512,
+      "userLati": 62.902185,
+      "city": "Iberia",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -118.655044,
+      "serverLati": -58.322123,
+      "userLongi": -138.989775,
+      "userLati": -78.225141,
+      "city": "Falconaire",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -100.693709,
+      "serverLati": -64.223506,
+      "userLongi": -9.495031,
+      "userLati": 15.263123,
+      "city": "Monument",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -84.828982,
+      "serverLati": 70.487314,
+      "userLongi": -12.756808,
+      "userLati": 32.461943,
+      "city": "Drytown",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 172.677859,
+      "serverLati": 52.056941,
+      "userLongi": 23.29274,
+      "userLati": 4.490252,
+      "city": "Chumuckla",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -152.826173,
+      "serverLati": -37.657012,
+      "userLongi": -155.936349,
+      "userLati": 32.440489,
+      "city": "Macdona",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -145.204614,
+      "serverLati": 7.656269,
+      "userLongi": 114.219216,
+      "userLati": 66.765621,
+      "city": "Ryderwood",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 95.248773,
+      "serverLati": 11.363207,
+      "userLongi": 4.537392,
+      "userLati": -72.814575,
+      "city": "Hollymead",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -6.47311,
+      "serverLati": 25.478138,
+      "userLongi": -166.283038,
+      "userLati": 30.580907,
+      "city": "Herbster",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 159.521855,
+      "serverLati": -86.093859,
+      "userLongi": -31.896712,
+      "userLati": -50.857018,
+      "city": "Cazadero",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -129.409622,
+      "serverLati": -77.880517,
+      "userLongi": 71.491169,
+      "userLati": -5.984791,
+      "city": "Bendon",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 128.082194,
+      "serverLati": 39.926462,
+      "userLongi": -24.72882,
+      "userLati": 67.069422,
+      "city": "Kennedyville",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 164.206731,
+      "serverLati": -38.699331,
+      "userLongi": 89.24887,
+      "userLati": 81.139616,
+      "city": "Balm",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -174.658808,
+      "serverLati": 88.908194,
+      "userLongi": -125.24314,
+      "userLati": 13.496113,
+      "city": "Ilchester",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 6.928768,
+      "serverLati": -2.443538,
+      "userLongi": 168.678831,
+      "userLati": -21.334946,
+      "city": "Brogan",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 30.839057,
+      "serverLati": -46.497529,
+      "userLongi": -175.261527,
+      "userLati": 11.022743,
+      "city": "Matthews",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -59.760702,
+      "serverLati": 56.346839,
+      "userLongi": -126.155984,
+      "userLati": -28.40671,
+      "city": "Cliffside",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -3.897977,
+      "serverLati": 53.037818,
+      "userLongi": 161.144575,
+      "userLati": 18.776724,
+      "city": "Beyerville",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -154.165566,
+      "serverLati": -88.573903,
+      "userLongi": 176.743758,
+      "userLati": 82.153466,
+      "city": "Kilbourne",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -126.631279,
+      "serverLati": 41.769564,
+      "userLongi": -86.345945,
+      "userLati": 42.789094,
+      "city": "Ronco",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 136.304461,
+      "serverLati": -59.362069,
+      "userLongi": -29.653692,
+      "userLati": -30.807976,
+      "city": "Skyland",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -75.920564,
+      "serverLati": 4.11344,
+      "userLongi": 3.379413,
+      "userLati": 47.014464,
+      "city": "Crawfordsville",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -109.631673,
+      "serverLati": 13.287453,
+      "userLongi": -125.583802,
+      "userLati": 53.172071,
+      "city": "Grandview",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -153.328688,
+      "serverLati": -43.617531,
+      "userLongi": 14.614309,
+      "userLati": -81.568966,
+      "city": "Cumberland",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -67.240782,
+      "serverLati": 48.9751,
+      "userLongi": 70.133366,
+      "userLati": -29.033979,
+      "city": "Crumpler",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 108.451849,
+      "serverLati": -13.723127,
+      "userLongi": -49.329395,
+      "userLati": -45.478497,
+      "city": "Croom",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 129.129087,
+      "serverLati": 87.88127,
+      "userLongi": -27.169814,
+      "userLati": 54.173629,
+      "city": "Hollins",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 101.195491,
+      "serverLati": -34.885162,
+      "userLongi": -131.679413,
+      "userLati": 34.555194,
+      "city": "Coalmont",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -25.040528,
+      "serverLati": 45.364964,
+      "userLongi": -35.42833,
+      "userLati": -59.256664,
+      "city": "Stockdale",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 142.143845,
+      "serverLati": -63.52994,
+      "userLongi": 152.861139,
+      "userLati": -80.252337,
+      "city": "Belfair",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": 41.039136,
+      "serverLati": 13.247533,
+      "userLongi": 145.915176,
+      "userLati": -59.033383,
+      "city": "Hanover",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -139.407952,
+      "serverLati": -3.424025,
+      "userLongi": -155.27285,
+      "userLati": 37.20112,
+      "city": "Lynn",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -30.750105,
+      "serverLati": -77.536393,
+      "userLongi": -77.032355,
+      "userLati": -3.562865,
+      "city": "Breinigsville",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 80.606643,
+      "serverLati": 40.02897,
+      "userLongi": -29.812831,
+      "userLati": -79.885698,
+      "city": "Waverly",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -140.853115,
+      "serverLati": 16.788607,
+      "userLongi": -123.080741,
+      "userLati": -29.269385,
+      "city": "Bonanza",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 1.20912,
+      "serverLati": -25.847338,
+      "userLongi": -59.092353,
+      "userLati": 48.498511,
+      "city": "Lowgap",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 113.46736,
+      "serverLati": 35.088657,
+      "userLongi": -86.652504,
+      "userLati": 22.787501,
+      "city": "Rote",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 143.654881,
+      "serverLati": -87.54108,
+      "userLongi": -13.329871,
+      "userLati": -22.502911,
+      "city": "Golconda",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -37.499573,
+      "serverLati": -18.038164,
+      "userLongi": 47.912481,
+      "userLati": 59.26657,
+      "city": "Homeland",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 54.499433,
+      "serverLati": 13.737741,
+      "userLongi": 70.269103,
+      "userLati": -32.771481,
+      "city": "Felt",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -93.691541,
+      "serverLati": 51.285221,
+      "userLongi": 58.709755,
+      "userLati": -15.016138,
+      "city": "Mathews",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 2.935652,
+      "serverLati": 68.604194,
+      "userLongi": -172.887428,
+      "userLati": 87.863051,
+      "city": "Cleary",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -150.744663,
+      "serverLati": 65.69807,
+      "userLongi": 29.266705,
+      "userLati": 29.800517,
+      "city": "Cloverdale",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -7.05075,
+      "serverLati": 46.877739,
+      "userLongi": 52.313785,
+      "userLati": 72.601944,
+      "city": "Belva",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -57.898388,
+      "serverLati": 64.859315,
+      "userLongi": -21.634074,
+      "userLati": -56.408314,
+      "city": "Retsof",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -165.196777,
+      "serverLati": 2.750504,
+      "userLongi": -52.073304,
+      "userLati": 21.009448,
+      "city": "Ribera",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -161.100374,
+      "serverLati": 29.39806,
+      "userLongi": 126.607219,
+      "userLati": -84.044386,
+      "city": "Vienna",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 144.149338,
+      "serverLati": -60.599719,
+      "userLongi": -68.595019,
+      "userLati": 61.376126,
+      "city": "Bridgetown",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 60.257015,
+      "serverLati": 35.995456,
+      "userLongi": -105.744811,
+      "userLati": 18.408167,
+      "city": "Logan",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 154.69781,
+      "serverLati": -47.594187,
+      "userLongi": 36.878779,
+      "userLati": 89.100843,
+      "city": "Umapine",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -58.224147,
+      "serverLati": 88.663734,
+      "userLongi": 36.785261,
+      "userLati": -73.828887,
+      "city": "Duryea",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -22.699054,
+      "serverLati": 68.968436,
+      "userLongi": 52.486153,
+      "userLati": 11.46746,
+      "city": "Mulino",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 57.021724,
+      "serverLati": -62.00738,
+      "userLongi": -177.980078,
+      "userLati": -63.424087,
+      "city": "Ventress",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": 89.897169,
+      "serverLati": -0.221936,
+      "userLongi": 135.494572,
+      "userLati": 12.459085,
+      "city": "Cuylerville",
+      "securityTag": "neptune."
+    },
+    {
+      "serverLongi": -101.542962,
+      "serverLati": -75.546662,
+      "userLongi": -66.617656,
+      "userLati": 77.720124,
+      "city": "Neibert",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -4.369942,
+      "serverLati": -62.543711,
+      "userLongi": 38.990296,
+      "userLati": 66.171387,
+      "city": "Dundee",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": 173.323209,
+      "serverLati": -75.085537,
+      "userLongi": 35.234535,
+      "userLati": -16.145955,
+      "city": "Fowlerville",
+      "securityTag": "normal."
+    },
+    {
+      "serverLongi": -4.680458,
+      "serverLati": -70.254528,
+      "userLongi": 160.961127,
+      "userLati": -76.490367,
+      "city": "Brandywine",
+      "securityTag": "smurf."
+    },
+    {
+      "serverLongi": -27.557148,
+      "serverLati": -4.37265,
+      "userLongi": -142.689602,
+      "userLati": -27.141167,
+      "city": "Newkirk",
+      "securityTag": "neptune."
+    }
+    
+  ]
 }

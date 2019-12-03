@@ -4,5 +4,5 @@ module.exports = {
     //       'echarts':'echarts',
     //       'echarts-gl':'echarts-gl'
     //   }
-    // }
-};
+    // 
+}
